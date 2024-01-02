@@ -125,7 +125,7 @@ def models():
 @app.route("/")
 def index():
     # ./llama_multi_api_ui.html
-    with open('./llama_multi_api_ui.html', 'r') as f:
+    with open('./index.html', 'r') as f:
         html = f.read()
     return html
 
